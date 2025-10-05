@@ -6,10 +6,46 @@
   <style>
     body { font-family: sans-serif; text-align: center; background: #f0faff; padding: 40px; }
     video { width: 300px; margin: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+
+    nav {
+  background-color: #333;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
   </style>
 </head>
 <body>
   <h1>My Video Gallery</h1>
+
+  <nav>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="images.html">Image Gallery</a></li>
+  </ul>
+</nav>
+
   <video controls>
     <source src="media/bvid.mp4" type="video/mp4">
     Your browser does not support the video tag.
